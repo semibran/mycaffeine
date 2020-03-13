@@ -4,14 +4,14 @@
 * [Contents](#content)
 
 ## General Info
-The app tracks a user's coffee/caffeine consumption. 
+This browser based web application tracks a user's coffee/caffeine consumption. 
 First the user must login.  Then they can add (log) cups, and see their history.
 There is an optional profiles page to set goals (in construction).
 This small project demonstrates:
 * read and write to firestore, a non-sql database
 * use of firebase authentication and creation of a users collection in firestore
-* customized user experience after login//signup
-* tracking of a data point provided by the usre
+* customized user experience after login/signup
+* tracking of a data point provided by the user
 * display of a user's history of events
 * use of navbar in boostrap
 
