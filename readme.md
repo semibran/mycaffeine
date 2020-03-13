@@ -34,6 +34,7 @@ It has the following subfolders:
 |-- .git                     # Folder for git repo
 ├── images                   # Folder for images
 ├── scripts                  # Folder for scripts
+    scripts.js               # This is where all the core functions are located
 ├── styles                   # Folder for styles
 
 Firebase hosting files: 
