@@ -4,14 +4,22 @@
 * [Contents](#content)
 
 ## General Info
-This project tracks a user's coffee/caffeine consumption. 
+The app tracks a user's coffee/caffeine consumption. 
 First the user must login.  Then they can add (log) cups, and see their history.
 There is an optional profiles page to set goals (in construction).
+This small project demonstrates:
+* read and write to firestore, a non-sql database
+* use of firebase authentication and creation of a users collection in firestore
+* customized user experience after login//signup
+* tracking of a data point provided by the usre
+* display of a user's history of events
+* use of navbar in boostrap
+
 	
 ## Technologies
-Technologies that were used for our project:
+Technologies that were used for this project:
 * Firebase Hosting
-* Firebase Database
+* Firebase Firestore Database
 * HTML, CSS
 * JavaScript
 * Bootstrap 
@@ -26,22 +34,22 @@ Content of the project folder:
 ├── index.html               # landing HTML file
 ├── login.html               # login HTML file
 ├── main.html                # after logged in, you can add cups, and see history here
-├── profiles.html            # page to edit, save your own profile preferences
+├── profile.html             # page to edit, save your own profile preferences
 └── README.md
 
 It has the following subfolders:
 ├── .firebase                # Folder for firebase
-|-- .git                     # Folder for git repo
+├── .git                     # Folder for git repo
 ├── images                   # Folder for images
 ├── scripts                  # Folder for scripts
-    scripts.js               # This is where all the core functions are located
+    /scripts.js              # This is where all the core functions are located
 ├── styles                   # Folder for styles
 
 Firebase hosting files: 
 ├── .firebaserc              # Firebase file
 ├── firebase.json            # Firebase file
 ├── firestore.indexes.json   # Firebase file
-├── firestore.rules          # Firebase file
+├── firestore.rules          # Rules for read/write to firestore
 
 
 ```
