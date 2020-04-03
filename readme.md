@@ -31,8 +31,8 @@ Content of the project folder:
  Top level of project folder: 
 ├── .gitignore               # Git ignore file
 ├── 404.html                 # File for error
-├── index.html               # landing HTML file
-├── login.html               # login HTML file
+├── index.html               # landing HTML file, this is what users see when you come to url
+├── login.html               # login HTML file, contains logic for user authentication
 ├── main.html                # after logged in, you can add cups, and see history here
 ├── profile.html             # page to edit, save your own profile preferences
 └── README.md
